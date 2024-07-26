@@ -1,5 +1,4 @@
 <script setup lang="ts">
- import {reactive} from "vue";
 
  const props = defineProps(['items'])
 
@@ -9,7 +8,7 @@
 
 <template>
   <div class="shop-container">
-    <div class="item" v-for="(item,key) in items">
+    <div class="item" v-for="(item) in props.items">
       <img :src="item.imageURL" width="100%" alt="item" />
       <h3>{{ item.title }}</h3>
 
