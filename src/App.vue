@@ -13,12 +13,12 @@ const speedIncome = ref(1)
 
 
 const items = reactive([
-  { title:"Sword", imageURL:"src/assets/Background/Icon1.png",price:10000,buff:100},
-  { title:"Shield", imageURL:"src/assets/Background/Icon2.png",price:10000,buff:100},
-  { title:"Axe", imageURL:"src/assets/Background/Icon3.png",price:10000,buff:100},
-  { title:"Bow", imageURL:"src/assets/Background/Icon4.png",price:10000,buff:100},
-  { title:"Spear", imageURL:"src/assets/Background/Icon5.png",price:10000,buff:100},
-  { title:"Dagger", imageURL:"src/assets/Background/Icon6.png",price:10000,buff:100},
+  { title:"Sword", imageURL:"src/assets/Icon1.png",price:10000,buff:100},
+  { title:"Shield", imageURL:"src/assets/Icon2.png",price:10000,buff:100},
+  { title:"Axe", imageURL:"src/assets/Icon3.png",price:10000,buff:100},
+  { title:"Bow", imageURL:"src/assets/Icon4.png",price:10000,buff:100},
+  { title:"Spear", imageURL:"src/assets/Icon5.png",price:10000,buff:100},
+  { title:"Dagger", imageURL:"src/assets/Icon6.png",price:10000,buff:100},
 ])
 
 
